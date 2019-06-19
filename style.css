@@ -72,6 +72,40 @@ header {
     color: #4a515c;
 }
 
+#lorem {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#lorem h5 {
+    text-align: center;
+}
+
+#trash-b img {
+    padding: 75px 65px 80px 65px;
+}
+
+#dhavan {
+    background: #5ac188;
+}
+
+#men {
+    padding-top: 95px;
+}
+
+#dhavan-text {
+    padding-top: 110px;
+}
+
+#lorem2 {
+    padding-bottom: 100px;
+}
+
+#lorem2 h3 {
+    text-align: center;
+}
+
 @media(max-width: 640px) {
     #header-top,
     #header-nav {
