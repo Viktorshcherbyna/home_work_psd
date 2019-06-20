@@ -4,6 +4,9 @@
 
 li {
     list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .container,
@@ -45,6 +48,7 @@ header {
 #tonic {
     position: absolute;
     margin-top: 135px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #tonic h1 {
@@ -71,20 +75,25 @@ header {
     text-align: center;
     padding: 85px 0px 22px 0px;
     color: #4a515c;
-    max-width: 500px;
+    max-width: 675px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 #lorem {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 #lorem h5 {
     text-align: center;
     padding: 22px 0px 33px 0px;
     color: #4a515c;
-    max-width: 827px;
+    max-width: 853px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 #trash-b img {
@@ -104,13 +113,17 @@ header {
 }
 
 #dhavan-text h2 {
-    font-size: 26px;
     text-transform: uppercase;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 #dhavan-text h3 {
-    font-size: 78px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160px;
+    font-weight: normal;
     color: #66cca0;
 }
 
@@ -120,9 +133,12 @@ header {
 }
 
 #lorem2 h3 {
-    max-width: 912px;
+    max-width: 925px;
     text-align: left;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
 }
 
 #map img {
@@ -166,6 +182,8 @@ header {
     background: #5ac188;
     color: #ffffff;
     padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 @media(max-width: 1000px) {
