@@ -162,6 +162,12 @@ header {
     padding-top: 30px;
 }
 
+#footer {
+    background: #5ac188;
+    color: #ffffff;
+    padding: 5px;
+}
+
 @media(max-width: 1000px) {
     #header-top,
     #header-nav {
