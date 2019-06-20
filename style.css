@@ -51,6 +51,7 @@ header {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    position-top: 130px;
 }
 
 #tonic #btn {
@@ -68,8 +69,9 @@ header {
 
 #same-time h2 {
     text-align: center;
-    padding: 90px 0px;
+    padding: 85px 0px 22px 0px;
     color: #4a515c;
+    max-width: 500px;
 }
 
 #lorem {
@@ -80,10 +82,13 @@ header {
 
 #lorem h5 {
     text-align: center;
+    padding: 22px 0px 33px 0px;
+    color: #4a515c;
+    max-width: 827px;
 }
 
 #trash-b img {
-    padding: 75px 65px 80px 65px;
+    padding: 38px 65px 85px 65px;
 }
 
 #dhavan {
@@ -98,40 +103,136 @@ header {
     padding-top: 110px;
 }
 
+#dhavan-text h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#dhavan-text h3 {
+    font-size: 78px;
+    color: #66cca0;
+}
+
 #lorem2 {
-    padding-bottom: 100px;
+    width: 100%;
+    padding: 31px 20px 100px 20px;
 }
 
 #lorem2 h3 {
-    text-align: center;
+    max-width: 912px;
+    text-align: left;
+    color: #ffffff;
 }
 
-@media(max-width: 640px) {
+#map img {
+    width: 100%;
+    max-height: 520px;
+}
+
+#map #input {
+    position: absolute;
+    max-width: 273px;
+    margin-top: 50px;
+    padding: 80px 80px 45px;
+    border: none;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+
+#map #input input {
+    width: 273px;
+    margin: 5px;
+    padding: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 1);
+}
+
+#map #input #text {
+    margin-top: 50px;
+}
+
+#map #input #message {
+    padding-bottom: 50px;
+}
+
+#map #input #bird {
+    max-width: 63px;
+    padding-top: 30px;
+}
+
+@media(max-width: 1000px) {
     #header-top,
     #header-nav {
         justify-content: center;
     }
-    #logo {
-        padding: 20px 50px;
-    }
     #header-nav ul {
-        padding: 10px 40px;
-    }
-}
-
-@media(max-width: 950px) {
-    #header-nav ul {
-        justify-content: center;
-    }
-}
-
-@media(max-width: 950px) {
-    #header-top,
-    #header-nav {
         justify-content: center;
     }
     #header-nav ul li {
         justify-content: center;
         border: none;
+    }
+    #tonic {
+        margin: 100px 0px 0px 0px;
+        padding: 10px 20px 10px 20px;
+    }
+    #same-time h2 {
+        padding: 10px 20px 10px 20px;
+    }
+    #lorem h5 {
+        padding: 10px 20px 10px 20px;
+    }
+    #map #input input {
+        max-width: 273px;
+        margin: 5px;
+        padding: 4px;
+        border: none;
+        background: rgba(255, 255, 255, 1);
+    }
+}
+
+
+}
+@media(max-width: 640px) {
+    #header-top,
+    #header-nav {
+        justify-content: center;
+    }
+    
+    #logo {
+        padding: 20px 50px;
+    }
+    
+    #header-nav ul {
+        padding: 10px 40px;
+    }
+    
+    #tonic {
+        margin: 50px 0px 0px 0px;
+    }
+    
+    #tonic #btn button {
+        margin: 25px;
+    }
+}
+@media(max-width: 410px) {
+    #tonic {
+        margin-top: 25px;
+    }
+    
+    #tonic h1 {
+        font-size: 22px;
+    }
+    
+    #tonic #btn button {
+        margin: 15px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 280px) {
+    #dhavan-text {
+        padding: 20px;
     }
 }
