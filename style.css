@@ -55,7 +55,6 @@ header {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    position-top: 130px;
 }
 
 #tonic #btn {
@@ -217,44 +216,38 @@ header {
     }
 }
 
-
-}
 @media(max-width: 640px) {
     #header-top,
     #header-nav {
         justify-content: center;
     }
-    
     #logo {
         padding: 20px 50px;
     }
-    
     #header-nav ul {
         padding: 10px 40px;
     }
-    
     #tonic {
         margin: 50px 0px 0px 0px;
     }
-    
     #tonic #btn button {
         margin: 25px;
     }
 }
+
 @media(max-width: 410px) {
     #tonic {
         margin-top: 25px;
     }
-    
     #tonic h1 {
         font-size: 22px;
     }
-    
     #tonic #btn button {
         margin: 15px;
         font-size: 15px;
     }
 }
+
 @media(max-width: 280px) {
     #dhavan-text {
         padding: 20px;
